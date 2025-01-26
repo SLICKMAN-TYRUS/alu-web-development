@@ -1,0 +1,476 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(
+        hsla(215, 81%, 4%, 0.9),  
+        hsla(217, 87%, 3%, 0.9) 
+        );
+    background: linear-gradient(
+        to top, 
+        hsla(217, 90%, 4%, 0.9),  
+        hsla(215, 100%, 2%, 0.9), 
+        hsla(215, 100%, 2%, 0.5),  
+        hsla(0, 0%, 2%, 0.9)     
+    ), url('pics/image1.png');
+    
+    height: 1093px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+.menu{
+    position: absolute;
+    width: 234px;
+    height: 15px;
+    left: 1041px;
+    top: 37px;
+}
+.menu a{
+    text-decoration: none;
+}
+.login{
+    position: absolute;
+    height: 15px;
+    left: 85.47%;
+    right: 0%;
+    top: 37px;
+
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+}
+.pricing{
+    position: absolute;
+    height: 15px;
+    left: 43.59%;
+    right: 37.18%;
+    top: 37px;
+
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+}
+.courses{
+    position: absolute;
+    height: 15px;
+    left: 0%;
+    right: 78.63%;
+    top: 37px;
+
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+}
+.logo{
+    position: absolute;
+    width: 50px;
+    height: 29.46px;
+    left: 171.59px;
+    top: 37px;
+}
+.main_part{
+    position: absolute;
+    width: 1440px;
+    height: 1093px;
+    left: 0px;
+    top: 0px;
+
+}
+.block1 {
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.block1 p {
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.get_schooled {
+    height: 151px;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 151px;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.block1 p span {
+    margin-left: 60px;
+    text-transform: uppercase;
+}
+
+
+
+.button_background{
+    width: 162px;
+    height: 44px;
+    background-color: #C271FF;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 10px;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-bottom: 70px;
+    border: none;
+
+        
+}
+.block_2{
+    height: 237px;
+    width: 100vw;
+}
+.typography{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 32px;
+    margin-left: 100px;
+    color: white;
+    margin-bottom: 30px;
+}
+.typography span{
+    color: #C271FF;
+}
+.pros{
+    border: 1px solid rgba(0, 4, 255, 0.068);
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: space-between;
+    margin-top: 20px;
+    height: 250px;
+    color: #FFFFFF;
+}
+.pro{
+    border: 1px solid rgba(49, 0, 128, 0.26);
+    width: 150px;
+    height: 237px;
+
+}
+.pro img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.pro h3{
+    font-size: 18px;
+}
+.pro p{
+    font-size: 16px;
+    font-style: italic;
+}
+/*-------------testimonials section----------------*/
+
+.testimonials{
+    background-color: #C271FF;
+    height: 392px;
+    max-width: 1440px;
+    border-top: 1093px;
+}
+.testimonial{
+    display: flex;
+    color: #FFFFFF;
+    font-size: 22px;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+    padding-left: 160px;
+}
+.avatar{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-position: center;
+    object-fit: cover;
+}
+.text_quote{
+    padding-left: 40px;
+}
+.person_name{
+    font-weight: bold;
+    margin-top: 10px;
+}
+.weather_presenter{
+    font-style: italic;
+}
+
+
+/*-------------tutorials section----------------*/
+
+.tutorials_part{
+    margin-top: 50px;
+    height: 450px;
+    width: 1228px;
+    margin-left: 40px;
+
+}
+.popular_tutorials{
+    text-align: center;
+    font-weight: lighter;
+    margin-bottom: 50px;
+    margin-top: 87px;
+    line-height: 40.22px;
+    font-style: normal;
+    
+}
+.popular_tutorials span{
+    color: #C271FF;
+    font-weight: bolder;
+    font-size: 32px;
+}
+.tutorials{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: 106px;
+    margin-left: 106px;
+}
+.tuto{
+    width: 255px;
+    height: 335px;
+    margin-right: 20px;
+    
+    
+}
+.tuto p{
+    font-size: 14px;
+    color: #071629;
+}
+.tuto h2{
+    font-size: 16px;
+}
+.tuto img{
+    width: 255px;
+}
+
+.tutorial_author{
+    display: flex;
+    margin-top: 10px;
+}
+.tutorial_author h3{
+    font-size: 14px;
+    color: #C271FF;
+    padding-left: 10px;
+    margin-top: 5px;
+}
+.tutorial_author img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.rating{
+    display: flex;
+    align-items: center;
+}
+.rating p{
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0px;
+    text-align: right;
+    margin-left: 200px;
+    
+
+
+color: #C271FF;
+
+
+}
+.rating .stars{
+    display: flex;
+    max-width: 10px;
+}
+.star{
+    width: 15px;
+}
+
+/*-------------------------------membership section----------------------------------------*/
+
+.membership{
+    background-color: #071629;
+    margin-top: 50px;
+    height: 502px;
+    width: 100vw;
+    color: #FFFFFF;
+}
+.membership h1{
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    padding-top: 40px;
+}
+.membership h1 span{
+    color: #C271FF;
+}
+.dots{
+    display: flex;
+    margin-top: 40px;
+    margin-right: 30px;
+    margin-left: 60px;
+}
+.dot{
+    width: 257px;
+    height: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+.lorem_text{
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+}
+.dot h2{
+    font-size: 18px;
+    text-align: center;
+}
+.smileyy{
+    text-align: center;
+}
+.register_button{
+    width: 162px;
+    height: 44px;
+    background-color: #C271FF;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 100px;
+    border-radius: 20px;
+    margin-left: 45%;
+    border: none;
+    margin-bottom: 52px;
+}
+
+
+/*-------------------------------F.A.Q section----------------------------------------*/
+
+.faq_section{
+    width: 920px;
+    height: 707px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.faq{
+    text-align: center;
+    font-size: 60px;
+    font-weight: lighter;
+    margin-bottom: 30px;
+
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.row-block{
+    margin-right: 40px;
+    margin-top: 10px;
+    justify-content: center;
+    text-align: center;
+}
+.q-content p{
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    line-height: 24px;
+    color: rgb(81, 79, 79);
+}
+.q-content h2{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/*-------------------------------footer section----------------------------------------*/
+
+.global-block{
+    width: 100vw;
+    background-color: #071629;
+}
+.block_content{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 200px;
+    margin-top: -30px;
+}
+.logo1{
+    height: 50px;
+    width: 169px;
+    left: 165.0000000000001px;
+    margin-top: 95px;
+    border-radius: 0px;
+
+}
+.social_icons{
+    display: flex;
+    position: absolute;
+    width: 20px;
+    height: 30px;
+    left: 1070px;
+    margin-top: 95px;
+    text-align: center;
+    justify-content: space-between;
+}
+.global-block p{
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 200px;
+}
+.fb{
+    border-image:round;
+    max-width: 50px;
+    border-color: #071629;
+    border-radius: 25px;
+    text-align: center;
+    justify-content: center;
+}
+.twitter{
+    display: flex;
+    border-image:round;
+    max-width: 50px;
+    border-color: #071629;
+    border-radius: 25px;
+    text-align: center;
+    justify-content: center;
+}
+.ig{
+    display: flex;
+    border-image:round;
+    max-width: 50px;
+    border-color: #071629;
+    border-radius: 50px;
+    text-align: center;
+    justify-content: center;
+}
